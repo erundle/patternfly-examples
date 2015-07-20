@@ -168,7 +168,7 @@ angular.module( 'sampleApp.appModule' )
 				},
                 {
                 "title": "Charting",
-                "href": "#/charting",
+                "href": "#/charting#percentageused",
                 "children":[
                 {
                     "title":"Donut",

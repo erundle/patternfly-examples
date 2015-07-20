@@ -4,6 +4,7 @@ angular.module( 'sampleApp.appModule', [
     'pascalprecht.translate',
     'sampleApp.designModule',
     'sampleApp.pageModule',
+    'sampleApp.chartsModule',
     'patternfly.navigation'
 ] )
     .config( ['$routeProvider', '$translateProvider',
@@ -42,8 +43,8 @@ angular.module( 'sampleApp.appModule', [
                     controllerAs: 'vm'
                   })
                   .when('/charting', {
-                    templateUrl: 'modules/tables/views/tables.html',
-                    controller: 'tablesController',
+                    templateUrl: 'modules/charts/views/charts.html',
+                    controller: 'chartsController',
                     controllerAs: 'vm'
                   })
                   .when('/pagetemplates/basic', {
