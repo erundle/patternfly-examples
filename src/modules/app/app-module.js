@@ -23,7 +23,7 @@ angular.module( 'sampleApp.appModule', [
                     controllerAs: 'vm'
                   })
                   .when('/forms', {
-                    templateUrl: 'modules/forms/views/forms.html',
+                    templateUrl: 'modules/forms/views/dropdowns/dropdowns.html',
                     controller: 'formsController',
                     controllerAs: 'vm'
                   })

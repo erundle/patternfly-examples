@@ -38,7 +38,7 @@ angular.module( 'sampleApp.appModule' )
                 },
          		{			
 					"title": "Design",
-					"href": "#/design",
+					"href": "#/design#colors",
 					"children":[
             		{
                			"title":"Color Palette",
@@ -86,47 +86,47 @@ angular.module( 'sampleApp.appModule' )
 				},
 				{
 				"title": "Form Elements",
-				"href": "#/forms",
+				"href": "#/forms#dropdowns",
                 "children":[
                 {
                     "title":"Buttons",
-                    "href":"#/forms#iconography"
+                    "href":"#/forms#buttons"
                 },
                  {
                     "title":"Button Groups",
-                    "href":"#/forms#iconography"
+                    "href":"#/forms#buttongroups"
                 },
                 {
                     "title":"Dropdowns",
-                    "href":"#/forms#iconography"
+                    "href":"#/forms#dropdowns"
                 },
                 {
                     "title":"Select boxes",
-                    "href":"#/forms#iconography"
+                    "href":"#/forms#select"
                 },
                 {
                     "title":"Labels",
-                    "href":"#/forms#colors"
+                    "href":"#/forms#labels"
                 },
                 {
                     "title":"Inputs",
-                    "href":"#/forms#colors"
+                    "href":"#/forms#inputs"
                 },
                 {
                     "title":"Text Area",
-                    "href":"#/forms#typography"
+                    "href":"#/forms#textarea"
                 },
                 {
                     "title":"Radio Buttons",
-                    "href":"#/forms#typography"
+                    "href":"#/forms#radiobuttons"
                 },
                 {
                     "title":"Checkboxes",
-                    "href":"#/forms#typography"
+                    "href":"#/forms#checkboxes"
                 },
                 {
                     "title":"Date Picker",
-                    "href":"#/forms#iconography"
+                    "href":"#/forms#datepicker"
                 }
                 ]
 				},

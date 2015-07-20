@@ -12,7 +12,7 @@ angular.module('patternfly.navigation', []).directive('pfNavigation', ['$locatio
  			var hash = location.hash();
 
  			if(hash) {
-				anchorScroll();
+				//anchorScroll();
 				updatedRoute = updatedRoute + "#" + hash; 
 			}
 
