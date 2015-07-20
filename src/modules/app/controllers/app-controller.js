@@ -154,15 +154,19 @@ angular.module( 'sampleApp.appModule' )
                 },
 				{
 				"title": "Tables & Grids",
-				"href": "#/tables",
+				"href": "#/tables#tables",
                 "children":[
                 {
                     "title":"Table",
-                    "href":"#/tables#iconography"
+                    "href":"#/tables#tables"
                 },
                 {
                     "title":"Data Grid",
-                    "href":"#/tables#iconography"
+                    "href":"#/tables#datagrid"
+                },
+                {
+                    "title":"Angular Grid",
+                    "href":"#/tables#angulargrid"
                 }
                 ]
 				},
