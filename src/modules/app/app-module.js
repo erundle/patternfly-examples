@@ -33,8 +33,8 @@ angular.module( 'sampleApp.appModule', [
                     controllerAs: 'vm'
                   })
                   .when('/notifications', {
-                    templateUrl: 'modules/page/views/page.html',
-                    controller: 'pageController',
+                    templateUrl: 'modules/notifications/views/notifications.html',
+                    controller: 'notificationsController',
                     controllerAs: 'vm'
                   })
                   .when('/tables', {

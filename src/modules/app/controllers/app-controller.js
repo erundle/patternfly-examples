@@ -132,23 +132,23 @@ angular.module( 'sampleApp.appModule' )
 				},
                 {
                 "title": "Notifications",
-                "href": "#/notifications",
+                "href": "#/notifications#alerts",
                 "children": [
                 {
                     "title":"Alerts",
-                    "href":"#/design#colors"
+                    "href":"#/notifications#alerts"
                 },
                 {
                     "title":"Progress Bars",
-                    "href":"#/design#colors"
+                    "href":"#/notificationsn#progressbars"
                 },
                 {
                     "title":"Badges",
-                    "href":"#/design#typography"
+                    "href":"#/notifications#badges"
                 },
                 {
                     "title":"Loading Indicators",
-                    "href":"#/design#iconography"
+                    "href":"#/notifications#loading"
                 }
                 ]
                 },
