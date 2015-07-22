@@ -2,7 +2,7 @@
 
 angular.module('patternfly.navigation', []).directive('pfNavigation', ['$location', '$rootScope', '$anchorScroll', function(location, rootScope, anchorScroll) {
 
-	var navigationController = function($scope) {
+	var navigationController = ['$scope', function($scope) {
 
 		rootScope.$on( "$routeChangeSuccess", function(event, next, current) {
  			
@@ -41,7 +41,7 @@ angular.module('patternfly.navigation', []).directive('pfNavigation', ['$locatio
 
 			
 		});
-	};
+	}];
 
 	var clearActiveItems = function($scope) {
 		$scope.items.forEach(function eachItem(item) {

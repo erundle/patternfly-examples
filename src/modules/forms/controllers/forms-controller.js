@@ -1,4 +1,4 @@
-angular.module( 'sampleApp.designModule' )
+angular.module( 'sampleApp.formsModule' )
     .controller( 'formsController',
     ['$scope',
      function( $scope ) {

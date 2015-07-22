@@ -2,9 +2,13 @@ angular.module( 'sampleApp.appModule', [
     'ngResource',
     'ngRoute',
     'pascalprecht.translate',
-    'sampleApp.designModule',
-    'sampleApp.pageModule',
     'sampleApp.chartsModule',
+    'sampleApp.designModule',
+    'sampleApp.formsModule',
+    'sampleApp.homeModule',
+    'sampleApp.notificationsModule',
+    'sampleApp.pageModule',
+    'sampleApp.tablesModule',
     'patternfly.navigation'
 ] )
     .config( ['$routeProvider', '$translateProvider',
@@ -49,7 +53,7 @@ angular.module( 'sampleApp.appModule', [
                   })
                   .when('/pagetemplates/basic', {
                     templateUrl: 'modules/tables/views/tables.html',
-                    controller: 'pagetemplatesController',
+                    controller: 'tablesController',
                     controllerAs: 'vm'
                   })
                   // Default
