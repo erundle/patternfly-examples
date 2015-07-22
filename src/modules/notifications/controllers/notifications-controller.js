@@ -1,4 +1,4 @@
-angular.module( 'sampleApp.formsModule' )
+angular.module( 'sampleApp.designModule' )
     .controller( 'notificationsController',
     ['$scope',
      function( $scope ) {
