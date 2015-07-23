@@ -1,4 +1,4 @@
-angular.module( 'sampleApp.homeModule' )
+angular.module( 'patternflyApp.homeModule' )
     .controller( 'homeController',
     ['$scope',
      function( $scope ) {
@@ -7,5 +7,7 @@ angular.module( 'sampleApp.homeModule' )
 
         // stash a ref to the controller object, and the various parent objects
         var vm = this;
+
+        vm.pageClass ="homePage";
 
     }] );

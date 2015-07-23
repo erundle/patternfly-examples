@@ -1,4 +1,4 @@
-angular.module( 'sampleApp.notificationsModule' )
+angular.module( 'patternflyApp.notificationsModule' )
     .controller( 'notificationsController',
     ['$scope',
      function( $scope ) {

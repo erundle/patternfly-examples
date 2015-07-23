@@ -1,4 +1,4 @@
-angular.module( 'sampleApp.chartsModule', [
+angular.module( 'patternflyApp.chartsModule', [
     'ui.bootstrap', 
     'patternfly.charts'
    ] );

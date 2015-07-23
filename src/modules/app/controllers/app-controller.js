@@ -1,5 +1,5 @@
-angular.module( 'sampleApp.appModule' )
-    .controller( 'sampleApp.appController',
+angular.module( 'patternflyApp.appModule' )
+    .controller( 'patternflyApp.appController',
     ['$scope',
      '$rootScope',
      function( $scope,

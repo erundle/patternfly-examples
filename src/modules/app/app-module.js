@@ -1,14 +1,14 @@
-angular.module( 'sampleApp.appModule', [
+angular.module( 'patternflyApp.appModule', [
     'ngResource',
     'ngRoute',
     'pascalprecht.translate',
-    'sampleApp.chartsModule',
-    'sampleApp.designModule',
-    'sampleApp.formsModule',
-    'sampleApp.homeModule',
-    'sampleApp.notificationsModule',
-    'sampleApp.pageModule',
-    'sampleApp.tablesModule',
+    'patternflyApp.chartsModule',
+    'patternflyApp.designModule',
+    'patternflyApp.formsModule',
+    'patternflyApp.homeModule',
+    'patternflyApp.notificationsModule',
+    'patternflyApp.pageModule',
+    'patternflyApp.tablesModule',
     'patternfly.navigation'
 ] )
     .config( ['$routeProvider', '$translateProvider',

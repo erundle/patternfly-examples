@@ -1,4 +1,4 @@
-angular.module( 'sampleApp.chartsModule' )
+angular.module( 'patternflyApp.chartsModule' )
     .controller( 'chartsController',
     ['$scope', '$resource',
      function( $scope, $resource ) {

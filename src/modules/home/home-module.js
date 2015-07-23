@@ -1,4 +1,4 @@
-angular.module( 'sampleApp.homeModule', [
+angular.module( 'patternflyApp.homeModule', [
     'ui.bootstrap', 
     'patternfly.card'
    ] );

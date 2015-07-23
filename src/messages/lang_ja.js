@@ -1,5 +1,5 @@
 {
-    "sampleApp": {
+    "patternflyApp": {
         "header": {
             "TITLE": "かきまdeößüSelectors"
         }

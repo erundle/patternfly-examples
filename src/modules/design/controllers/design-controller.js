@@ -1,4 +1,4 @@
-angular.module( 'sampleApp.designModule' )
+angular.module( 'patternflyApp.designModule' )
     .controller( 'designController',
     ['$scope',
      function( $scope ) {

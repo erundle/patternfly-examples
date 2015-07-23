@@ -1,4 +1,4 @@
-angular.module( 'sampleApp.tablesModule' )
+angular.module( 'patternflyApp.tablesModule' )
     .controller( 'tablesController',
     ['$scope',
      function( $scope ) {

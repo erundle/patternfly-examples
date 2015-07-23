@@ -1,4 +1,4 @@
-angular.module( 'sampleApp.formsModule' )
+angular.module( 'patternflyApp.formsModule' )
     .controller( 'formsController',
     ['$scope',
      function( $scope ) {

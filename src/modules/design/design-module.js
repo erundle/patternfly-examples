@@ -1,3 +1,3 @@
 
-angular.module( 'sampleApp.designModule',
+angular.module( 'patternflyApp.designModule',
     ['ui.bootstrap'] );
