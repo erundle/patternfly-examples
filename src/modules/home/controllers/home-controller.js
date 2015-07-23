@@ -7,7 +7,4 @@ angular.module( 'patternflyApp.homeModule' )
 
         // stash a ref to the controller object, and the various parent objects
         var vm = this;
-
-        vm.pageClass ="homePage";
-
     }] );

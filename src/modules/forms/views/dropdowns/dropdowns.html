@@ -1,37 +1,35 @@
-<section>
-<header>
-	<div class="page-header">
-    	<h1 class="page-title" itemprop="headline">Dropdowns</h1>
-    </div>
-</header>
-
-<tabset>
+<div class="container">
+  <section>
+    <header>
+      <div class="page-header">
+        <h1 class="page-title" itemprop="headline">Dropdowns</h1>
+      </div>
+    </header>
+    <tabset>
     <tab heading="Overview">
-    	<div class="dropdown" style="margin-top: 20px;">
-  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
-    Dropdown
-    <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
-    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
-    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
-    <li role="presentation" class="divider"></li>
-    <li role="presentation" class="disabled"><a role="menuitem" tabindex="-1" href="#">Disabled link</a></li>
-    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
-  </ul>
-</div>
-<h2>Overview</h2>
-<p>The most common use case for this component is display a set of actions or choices to the user.</p>
+    <div class="dropdown" style="margin-top: 20px;">
+      <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+      Dropdown
+      <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+        <li role="presentation" class="divider"></li>
+        <li role="presentation" class="disabled"><a role="menuitem" tabindex="-1" href="#">Disabled link</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
+      </ul>
+    </div>
+    <h2>Overview</h2>
+    <p>The most common use case for this component is display a set of actions or choices to the user.</p>
     </tab>
     <tab heading="Bootstrap Example">
-    	<section ng-include="'modules/forms/views/dropdowns/bootstrap.html'"></section>
-    </tab>
-    <tab heading="Angular Example">
-    	<section ng-include="'modules/forms/views/dropdowns/angular.html'"></section>
-    </tab>
+  <section ng-include="'modules/forms/views/dropdowns/bootstrap.html'"></section>
+  </tab>
+  <tab heading="Angular Example">
+<section ng-include="'modules/forms/views/dropdowns/angular.html'"></section>
+</tab>
 </tabset>
 </section>
-
-
-
+</div>
