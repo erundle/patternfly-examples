@@ -22,8 +22,8 @@
 
 5. Install the dependencies:
 
-        $ npm install
-        $ bower install
+        $ sudo npm install
+        $ sudo bower install
 
 
 #### Running the App
