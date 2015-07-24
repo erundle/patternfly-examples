@@ -1,55 +1,45 @@
-# Sample App
+#### Installation
 
-Sample angular app framework 
+1. Install the following utilities:
+    - [Git](http://git-scm.com/downloads): a free and open source distributed version control system.
+        - Unfamiliar with Git? I recommend using [GitHub for Windows](https://windows.github.com/) or [GitHub for Mac](https://mac.github.com/).
+    - [Node.js](http://nodejs.org/download/): a software platform that is used to build server-side applications.
+    - [Grunt](http://gruntjs.com/getting-started): a JavaScript task runner.
 
-### Details
+            $ sudo npm install -g grunt-cli
+    - [Bower](http://bower.io/#installing-bower): a package manager for the web.
 
-This AngularJS application has a development dependence on NodeJS. Therefore, it is assumed that you have installed NodeJS prior to attempting the getting started steps.
+            $ sudo npm install -g bower
+2. Make sure you have a github account set up with your SSH key
 
-_**Getting Started:**_ 
+3. Clone this repository to wherever you prefer to keep your projects:
 
-	Installation
+        $ git clone https://github.com/erundle/patternfly-examples.git
 
-	- npm install	
-	- npm install -g bower	
-	- bower install	
-	- npm install -g grunt-cli		
+4. Navigate to where you've installed Teradata UI Platform:
 
-	Running
+        $ cd ~/code/patternfly-examples
 
-	- grunt serve		
+5. Install the dependencies:
 
-	Unit Testing with Karma + Jasmine
+        $ npm install
+        $ bower install
 
-	- grunt test		
 
-	End To End Testing with Protractor + Jasmine
+#### Running the App
 
-	- todo
+- Run the app from your localhost:
 
-	Build To Dist
+        $ grunt serve
 
-	- grunt build
+- The development harness should automatically open in your default browser. If not, visit [http://localhost:8090/](http://localhost:8090/) in your preferred browser.
 
-### Usage
+#### Building the App
 
-	You can run this project several ways
+- Building the minified version of the application
 
-	Grunt
+		$ grunt build
 
-	- grunt serve
+#### Deploying the App
 
-	- http://localhost:8090/	
-
-	Express - use if you want to do mocking
-
-	- node expressServer.js
-
-	- http://localhost:3000/	
-
-	Apache - test dist code (grunt build)
-
-	- Configure your apache install to point to your dist directory
-
-	- http://localhost/
-
+- The GIT master branch is currently being deployed to: [http://patternfly-erundle.rhcloud.com/dist/](http://patternfly-erundle.rhcloud.com/dist/)

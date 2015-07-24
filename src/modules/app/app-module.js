@@ -21,6 +21,26 @@ angular.module( 'patternflyApp.appModule', [
                     controller: 'homeController',
                     controllerAs: 'vm'
                   })
+                  .when('/home/faq', {
+                    templateUrl: 'modules/home/views/faq.html',
+                    controller: 'homeController',
+                    controllerAs: 'vm'
+                  })
+                  .when('/home/gettingstarted', {
+                    templateUrl: 'modules/home/views/gettingstarted.html',
+                    controller: 'homeController',
+                    controllerAs: 'vm'
+                  })
+                  .when('/home/whatsnew', {
+                    templateUrl: 'modules/home/views/whatsnew.html',
+                    controller: 'homeController',
+                    controllerAs: 'vm'
+                  })
+                  .when('/home/whatsnext', {
+                    templateUrl: 'modules/home/views/whatsnext.html',
+                    controller: 'homeController',
+                    controllerAs: 'vm'
+                  })
                   .when('/design', {
                     templateUrl: 'modules/design/views/design.html',
                     controller: 'designController',
