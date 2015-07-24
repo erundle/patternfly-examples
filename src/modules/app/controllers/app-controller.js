@@ -68,15 +68,15 @@ angular.module( 'patternflyApp.appModule' )
                 },
                 {
                     "title":"Tabs",
-                    "href":"#/page#iconography"
+                    "href":"#/page#tabs"
                 },
                 {
                     "title":"Paging",
-                    "href":"#/page#iconography"
+                    "href":"#/page#paging"
                 },
                 {
                     "title":"Tree View",
-                    "href":"#/page#iconography"
+                    "href":"#/page#treeview"
                 },
                 {
                     "title":"Cards",
@@ -180,7 +180,7 @@ angular.module( 'patternflyApp.appModule' )
                 },
                 {
                     "title":"Sparkline",
-                    "href":"#/charting#dounuts"
+                    "href":"#/charting#sparkline"
                 },
                 {
                     "title":"Trends",
