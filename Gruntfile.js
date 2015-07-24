@@ -274,6 +274,12 @@ module.exports = function( grunt ) {
                 src: ['img/**'],
                 dest: 'dist/'
             },
+            siteimages: {
+                expand: true,
+                cwd: 'src/',
+                src: ['site_images/**'],
+                dest: 'dist/'
+            },
             modules: {
                 expand: true,
                 cwd: 'src',
