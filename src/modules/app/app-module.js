@@ -26,6 +26,11 @@ angular.module( 'patternflyApp.appModule', [
                     controller: 'homeController',
                     controllerAs: 'vm'
                   })
+                  .when('/home/contribute', {
+                    templateUrl: 'modules/home/views/contribute.html',
+                    controller: 'homeController',
+                    controllerAs: 'vm'
+                  })
                   .when('/home/faq', {
                     templateUrl: 'modules/home/views/faq.html',
                     controller: 'homeController',

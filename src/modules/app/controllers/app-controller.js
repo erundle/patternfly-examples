@@ -33,6 +33,10 @@ angular.module( 'patternflyApp.appModule' )
                 {
                     "title":"FAQ",
                     "href":"#/home/faq"
+                },
+                {
+                "title":"Contribute",
+                    "href":"#/home/Contribute"
                 }
                 ]
                 },
