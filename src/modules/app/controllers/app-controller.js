@@ -36,7 +36,7 @@ angular.module( 'patternflyApp.appModule' )
                 },
                 {
                 "title":"Contribute",
-                    "href":"#/home/Contribute"
+                    "href":"#/home/contribute"
                 }
                 ]
                 },
