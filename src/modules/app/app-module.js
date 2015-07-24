@@ -16,8 +16,13 @@ angular.module( 'patternflyApp.appModule', [
                   'use strict';
 
                   $routeProvider
-                  .when('/home/about', {
+                  .when('/home', {
                     templateUrl: 'modules/home/views/home.html',
+                    controller: 'homeController',
+                    controllerAs: 'vm'
+                  })
+                  .when('/home/about', {
+                    templateUrl: 'modules/home/views/about.html',
                     controller: 'homeController',
                     controllerAs: 'vm'
                   })
@@ -78,7 +83,7 @@ angular.module( 'patternflyApp.appModule', [
                   })
                   // Default
                   .otherwise({
-                    redirectTo: '/home/about'
+                    redirectTo: '/home'
                   });
 
                   $translateProvider.translations( 'default', 'en');
