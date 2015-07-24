@@ -264,9 +264,9 @@ module.exports = function( grunt ) {
             },
             images: {
                 expand: true,
-                cwd: 'src/styles/',
+                cwd: 'src/styles/css/',
                 src: ['images/**'],
-                dest: 'dist/styles/'
+                dest: 'dist/styles/css/'
             },
             img: {
                 expand: true,
