@@ -218,7 +218,11 @@ angular.module( 'patternflyApp.appModule' )
                     "href":"#/pagetemplates/dashboards"
                 }
                 ]
-                }
+                },
+                {     
+          "title": "Terminology and Wording",
+          "href": "#/terminologyandwording"
+      }
 			];
 
      }] );

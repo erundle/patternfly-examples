@@ -86,6 +86,11 @@ angular.module( 'patternflyApp.appModule', [
                     controller: 'tablesController',
                     controllerAs: 'vm'
                   })
+                   .when('/terminologyandwording', {
+                    templateUrl: 'modules/terminologyandwording/terminologyandwording.html',
+                    controller: 'tablesController',
+                    controllerAs: 'vm'
+                  })
                   // Default
                   .otherwise({
                     redirectTo: '/home'
